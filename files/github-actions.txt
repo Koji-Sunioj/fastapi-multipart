@@ -1,0 +1,17 @@
+ssh:
+    list all keys:    
+        ls -al ~/.ssh
+    create a key with your email using a cryptography algorythm:
+        ssh-keygen -t ed25519 -C "koji.gabriel218@gmail.com"
+
+git:
+    set default branch to main:
+        git config --global init.defaultBranch main
+    show details of git config:
+        git config --list
+    create a new branch in repo:
+        git push --set-upstream origin read-me-feature
+
+* work flow file should always be in a folder called .github/workflows/anything.yml
+
+page 
