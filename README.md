@@ -1,0 +1,1 @@
+Little project to understand how to parse files to a server in Fast API. One endpoint using built in objects to write the files, and another using regex pattern matching, byte string manipulation to save the files.
